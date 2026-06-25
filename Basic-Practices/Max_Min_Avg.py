@@ -1,0 +1,5 @@
+numbers = list(map(float, input("Enter 3 numbert with a space between them: ").split()))
+_max = max(numbers)
+_min = min(numbers)
+avg = sum(numbers)/len(numbers)
+print(f"The average price is {avg:.2f}\nand the biggest number is {_max:.2f}\nand the smallest number is {_min:.2f}")
